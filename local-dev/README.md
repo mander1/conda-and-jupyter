@@ -45,3 +45,17 @@ conda info
 ```sh
 conda remove -n hello --all -y
 ```
+
+# install a package via condaforge
+
+https://conda-forge.org/
+
+```sh
+conda install -c conda-forge pandas
+```
+
+# check installs
+
+```sh
+pip list
+```
